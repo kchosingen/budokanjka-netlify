@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Budokan Karate Club JKA</title>
+</head>
+<body>
+    <div>
+        <!-- Navbar -->
+        <div class="w3-top w3-text-white w3-black">
+            <div class="w3-bar  ">
+              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="#home" class="w3-bar-item w3-button w3-padding-large">ACCUEIL</a>
+              <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INSTRUCTEUR</a>
+              <a href="#service" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ENTRAINEMENT</a>
+              <a href="#testimony" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEMOIGNAGE</a>
+              <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+            </div>
+          </div>
+  
+          <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+          <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+            <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INSTRUCTEUR</a>
+            <a href="#service" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ENTRAINEMENT</a>
+            <a href="#testimony" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEMOIGNAGE</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+          </div>
+    </div>
+    <section id="home">
+        <div class="hero">
+         <div class="hero-text">
+          <h1>Shotokan JKA,<br>
+             Clervaux Luxembourg</h1>      
+         </div>
+        
+        </div>
+    </section>
+    <main>
+      <div class="about" id="about">
+        <div>
+        <h2 class="title">
+              Instructeur JKA
+        </h2>
+        <div class="about-main">
+          <div>
+
+          </div>
+          <div class="about-text">
+             <h3>Félix MAHOUNDO <br>Grade: 5ème JKA, 6ème Dan WKF </h3>
+             <p>Représentant de la JKA LUXEMBOURG diplômé JKA / WKF et Instructeur en Chef du
+              Budokan karaté club.<br />
+              Il a pratiqué plusieurs styles de karaté do et possède une solide
+              connaissance des arts martiaux.<br /><br /> La pratique du karaté est devenue une passion. Il a suivi
+              l’enseignement des grands Maîtres japonais suivants : Sensei
+              Oshima karaté shotokan Sensei T.Kase, Enoeda et Hidetaka
+              Nishihama; Élève direct de Gichin Funakoshi (co-fondateur avec
+              Nakahama et responsable de la fameuse École des instructeurs de la
+              JKA qui a produit des maîtres comme Kanazawa, Eneoda, Mikami et
+              Shirai.).<br />
+              Ensuite Sensei keiichi Kasajima (disciple du Sensei Satochi
+              Miyasaki). Il était 6ème DAN de la Japan Karate Association, chef
+              instructeur JKA LUXEMBOURG.<br /><br />.</p>
+             <div style="margin-top:40px">
+              <span class="w3-text-white social" >
+                <p >Suivez moi sur les réseaux sociaux</p>
+                <div class="w3-margin-top">
+             <a href="#">  <i class="fa fa-facebook-official w3-hover-opacity icons" ></i></a> 
+             <a href="#"><i class="fa fa-instagram w3-hover-opacity icons" ></i></a> 
+             <a href="#"><i class="fa fa-snapchat w3-hover-opacity icons"></i></a>  
+             <a href="#"><i class="fa fa-pinterest-p w3-hover-opacity icons" ></i></a>  
+             <a href="#"><i class="fa fa-twitter w3-hover-opacity icons"></i></a>  
+             <a href="#"><i class="fa fa-linkedin w3-hover-opacity icons"></i></a>  
+             </div>
+              </span>
+             </div>
+            
+          </div>
+
+        </div>
+        </div>
+
+      </div>
+      <div class="service" id="service">
+         <h2 class="title"> __Entraînement</h2>
+
+         <div class="card">
+           <div class="card-list">
+              <div class="card-image">
+                <img src="./img/imgf.jpg" alt="Sensei Felix | Unsplash"/>
+              </div>
+              <div class="card-text"> 
+                <h4>Cours particuliers</h4>
+                <p>40euros/1 heure<br />Karaté- Self-défense</p>
+                <a href="#join">
+                  <button class="w3-btn w3-red w3-margin-top w3-round" style="width:100%">Joindre</button>
+                </a>
+
+              </div>
+           </div>
+           <div class="card-list">
+            <div class="card-image">
+              <img src="./img/img24.jpg" alt="Enfants | Unsplash"/>
+            </div>
+            <div class="card-text"> 
+              <h4>Cours enfants</h4>
+              <p>-7 ans :180 euros <br/> - 15 ans: 250 euros</p>
+              <a href="#join">
+                <button class="w3-btn w3-red w3-margin-top w3-round" style="width:100%">Pour infos</button>
+              </a>
+            </div>
+
+           </div>
+           <div class="card-list"><div class="card-image">
+            <img src="https://spaces.w3schools.com/images/0ShTs8iPY28.jpg" alt="Photo by Spencer Davis | Unsplash"
+            />
+          </div>
+          <div class="card-text"> 
+            <h4>Cours adultes</h4>
+            <p>340 euros annuel<br />débutants - Avancés</p>
+            <a href="#join">
+              <button class="w3-btn w3-red w3-margin-top w3-round" style="width:100%">nous contacter</button>
+            </a>
+
+          </div>
+
+           </div>
+         </div>
+      </div>
+
+      <div class="testimony" id="testimony">
+        <h2 class="title"> __ Un mot sur le JKA Luxembourg</h2>
+
+        <div class="testimony-main">
+                 <div class="testimony-image">
+                   <img src="./img/img30.jpg" alt="Hommage | Unsplash"/>
+                 </div>
+                 <div class="testimony-text">
+                   <h3>Trenton L. Embree</h3>
+                   <p style="font-style: italic;">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni, minus saepe exercitationem quis odio molestiae eveniet fuga suscipit sequi totam accusantium inventore voluptas illum beatae, voluptate quo? Accusantium, maiores."
+                   </p>
+
+                 </div>
+        </div>
+        <div class="testimony-main">
+          <div class="testimony-image">
+            <img src="https://spaces.w3schools.com/images/eot-ka5dM7Q.jpg" alt="Photo by Hayley Kim Design | Unsplash"/>
+          </div>
+          <div class="testimony-text">
+            <h3>Amanda E. Uren</h3>
+            <p style="font-style: italic;">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni, minus saepe exercitationem quis odio molestiae eveniet fuga suscipit sequi totam accusantium inventore voluptas illum beatae, voluptate quo? Accusantium, maiores."
+            </p>
+
+          </div>
+ </div>
+ <div class="testimony-main">
+  <div class="testimony-image">
+    <img src="https://spaces.w3schools.com/images/U5kQvbQWoG0.jpg" alt="Photo by Scott Webb | Unsplash"/>
+  </div>
+  <div class="testimony-text">
+    <h3>Heather J. Hawker</h3>
+    <p style="font-style: italic;">
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni, minus saepe exercitationem quis odio molestiae eveniet fuga suscipit sequi totam accusantium inventore voluptas illum beatae, voluptate quo? Accusantium, maiores."
+    </p>
+
+  </div>
+</div>
+
+
+
+      </div>
+      <div class="contact" id="join">
+        <h2 class="title"> __ Rejoignez-Nous</h2>
+        <div class="contact-main">
+
+          <div class="contact-form">
+            <form >
+              <div class="name"> 
+                <input  class="input name-list" type="text" placeholder="Prénom*">
+                <input  class="input name-list" type="text" placeholder="Nom*">
+              </div>
+              <input id="email" class="input"  type="text" placeholder="Email*">
+              <textarea  id="email" class="input" minlength="100"  placeholder="Votre Message*" required></textarea>
+             <button class="w3-btn w3-red w3-round">Envoyer</button>
+            </form>
+            </div>
+  
+          
+          <div class="contact-image">
+            <img src="./img/img26.jpg" alt="Sensei | Unsplash"/>
+  
+          </div>
+        </div>
+      </div>
+      <div class="contact-address" id="contact">
+        <h2 class="title"> __ CONTACTEZ-NOUS</h2>
+        <div class="contact-address-list">
+          <div class="contact-list">
+            <h4>Hall sportif lycée Clervaux</h4>
+            <p>7018 Baker St.
+             Englewood, NJ 07631</p>
+            <p>4 Trenton St.
+             Geneva, IL 60134</p>
+            <p>116 N. Maiden St.
+             Hempstead, NY 11550</p>
+          
+          </div>
+          <div class="contact-list">
+             <h4>Horaires</h4>
+             <p>Monday- Saturday: 8am -9:30pm</p>
+             <p>Sunday:8am- 9pm</p>
+       
+          </div>
+          <div class="contact-list">
+            <h4>Vos appels</h4>
+            <p> <i class="fa fa-phone " style="margin-right: 8px;font-size: 20px;"></i> 763-957-6781</p>
+            <p><i class="fa fa-phone" style="margin-right: 8px;font-size: 20px;"></i>706-734-2591</p>
+            <p><i class="fa fa-envelope " style=" margin-right: 5px;font-size: 20px;"></i>budokankaratelux@gmail.com</p>
+             
+        </div>
+
+        </div>
+
+      </div>
+
+    
+    </main>
+    <div class="w3-padding w3-center" style="background: #FFF4A3;padding: 10px 0px !important; color:#282A35; ">
+      <div style="display: flex; justify-content: center;align-items: center; flex-wrap: wrap;">
+        <p style="margin: 10px !important ">This website was made with w3schools Spaces. Make your own free website today</p>
+        <button class="w3-margin-top w3-btn w3-text-white  w3-round-xxlarge" style=" background-color:#282A35;padding: 8px 25px;  margin:0px  !important">Start now</button>
+      </div>
+  
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+</body>
+</html>
