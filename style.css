@@ -1,6 +1,23 @@
+
+/* reset */
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+/* general */
+
+body{
+	/*font-family: 'Roboto', sans-serif;*/
+	  
+}
+
+/*h1,h2,h3,h4,h5,h6{
+	font-family: "Staatliches",cursive;
+}*/
 /*CSS variables section*/
 :root {
-    
+    font-size:62.5%;
 color:white;
 }
 
@@ -12,23 +29,30 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
 section{
     margin-top: 46px;
 }
+hr {
+  margin: 20px auto;
+  height: 5px;
+  width: 90px;
+  background: #111;
+}
+.separator {
+  margin: 20px auto;
+  height: 10px;
+  width: 100px;
+  background: #111;
+}
 
 .hero{
-    background-image:url(./img/frame.jpg);
+    background-image:url(./img/frame_400_300.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    
-
-    
+      
 }
+.
 .hero-text{
     background-color: rgba(4,7,32,0.5);
     height: 600px;
@@ -37,8 +61,7 @@ section{
     align-items: center;
 }
 h1{
-    color:white;
-    
+    color:white;   
     text-shadow: 8px 10px 10px #000000;
     border-top:none;
     border-bottom: none;
@@ -46,7 +69,7 @@ h1{
     text-transform: uppercase;
     font-size: 80px;
     font-weight: 800;
-    
+   justify-content: center;
 }
 .about{
     
@@ -78,8 +101,7 @@ h1{
     
 }
 .about-main{
-    width: 90%;
-     
+    width: 90%;     
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -91,7 +113,31 @@ h1{
     width:700px;
     
 }
-
+.about-main ul{	
+	margin: 10px;
+	display:flex;
+	flex-flow:row nowrap
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	
+}
+.about-text2{
+    background-color: rgb(16, 19, 47);
+    padding: 30px ;
+    width:700px;
+    
+}
+.about-main2{
+   width: 90%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+  }
+  .show{empty-cells: show;}
+  .hide{empty-cells: hide;}
+  
 h3{
     font-size: 16px;
     
@@ -130,6 +176,7 @@ h3{
 }
 .card-text{
     width:90%;
+    margin: 20px;
     
 }
 .testimony{
@@ -149,9 +196,9 @@ h3{
     
 }
 .testimony-image{
-    width:380px;
-    height: 300px;
-    margin-left: 40px;
+    width:480px;
+    height: 300px;  
+    margin-left: 20px;
 
 }
 .testimony-image img{
@@ -162,6 +209,7 @@ h3{
 }
 .testimony-text{
     width: 40%;
+	background-color: rgb(16, 19, 47);
 
 }
 .contact{
