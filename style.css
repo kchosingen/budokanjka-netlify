@@ -1,6 +1,6 @@
 
 /* reset */
-*{ 
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 body{
 	/*font-family: 'Roboto', sans-serif;*/
-	  
+
 }
 
 /*h1,h2,h3,h4,h5,h6{
@@ -50,7 +50,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-      
+
 }
 .
 .hero-text{
@@ -61,7 +61,7 @@ hr {
     align-items: center;
 }
 h1{
-    color:white;   
+    color:white;
     text-shadow: 8px 10px 10px #000000;
     border-top:none;
     border-bottom: none;
@@ -72,16 +72,16 @@ h1{
    justify-content: center;
 }
 .about{
-    
+
     height: 700px;
     background-image:url(./img/imgf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     background-position: center;
-    
 
-    
+
+
 }
 .icons{
     font-size: 20px;
@@ -94,26 +94,26 @@ h1{
     margin:auto;
     padding:30px 10px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 200;
     margin-left: 10%;
     text-transform: uppercase;
-    width: 80%; 
-    
+    width: 80%;
+
 }
 .about-main{
-    width: 90%;     
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    
+
 }
 .about-text{
     background-color: rgb(16, 19, 47);
     padding: 30px ;
     width:700px;
-    
+
 }
-.about-main ul{	
+.about-main ul{
 	margin: 10px;
 	display:flex;
 	flex-flow:row nowrap
@@ -121,13 +121,13 @@ h1{
 table{
 	width: 100%;
 	border-collapse: collapse;
-	
+
 }
 .about-text2{
     background-color: rgb(16, 19, 47);
     padding: 30px ;
     width:700px;
-    
+
 }
 .about-main2{
    width: 90%;
@@ -137,12 +137,11 @@ table{
   }
   .show{empty-cells: show;}
   .hide{empty-cells: hide;}
-  
+
 h3{
-    font-size: 16px;
-    
+    font-size: 12px;
     font-weight: 300px;
-    
+
 }
 .service{
     padding-bottom: 100px;
@@ -150,7 +149,7 @@ h3{
     overflow: hidden;
 }
 .card{
-    width:80%;
+    width:70%;
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -177,7 +176,7 @@ h3{
 .card-text{
     width:90%;
     margin: 20px;
-    
+
 }
 .testimony{
     padding-bottom: 150px;
@@ -193,11 +192,11 @@ h3{
     margin: auto;
     justify-content: space-evenly;
     margin-top: 50px;
-    
+
 }
 .testimony-image{
     width:480px;
-    height: 300px;  
+    height: 300px;
     margin-left: 20px;
 
 }
@@ -205,7 +204,7 @@ h3{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 .testimony-text{
     width: 40%;
@@ -213,12 +212,12 @@ h3{
 
 }
 .contact{
-    
+
     background-color: #242526;
     padding-bottom: 150px;
 }
 .contact-image{
-    
+
     width:500px;
     overflow: hidden;
 }
@@ -248,7 +247,6 @@ textarea {
   border-radius: 5px;
 }
 form{
-    
 
     display: flex;
     flex-direction: column;
@@ -265,7 +263,7 @@ textarea{
 .name{
     display: flex;
     justify-content: space-between;
-    
+
 }
 .name-list
 {
@@ -285,7 +283,7 @@ textarea{
     background-color: #0a0c0f;;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+
 }
 .contact-list{
     margin: 20px 0px !important;
@@ -305,7 +303,7 @@ h4{
         background-color: rgba(4,7,32,0.9);
     }
     .hero{
-        
+
         margin: auto;
         height: 900px;
     }
@@ -317,7 +315,7 @@ h4{
         justify-content: space-evenly;
    }
    .contact-address-list{
-       
+
        margin: auto;
        width: 70%;
    }
@@ -360,7 +358,7 @@ h4{
     }
     .about-text{
         background-color: rgba(4,7,32,.5);
-        
+
     }
     .card{
         width: 90%;;
@@ -379,7 +377,7 @@ h4{
         background-image:url(./img/frame_600_450.jpg);
         height: 500px;
         background-position: center;
-        
+
 
     }
     .hero-text{
@@ -390,12 +388,12 @@ h4{
     }
     .about-text{
         background-color: rgba(4,7,32,.3);
-        
+
     }
     .title{
-    font-size: 30px; 
-    padding:30px 10px;  
-    
+    font-size: 25px;
+    padding:30px 10px;
+
     }
     h3{
         font-size: 25px;
@@ -404,7 +402,7 @@ h4{
         height: 500px;;
         overflow: hidden;
         background-position-x:left ;
-    
+
     }
     .card{
         width: 100%;;
@@ -424,7 +422,7 @@ h4{
     }
     .contact-main{
     width: 90%;
-    margin:auto;    
+    margin:auto;
     }
     .name{
         flex-direction: column;
